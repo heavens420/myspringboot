@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/crud/crud.iml" filepath="$PROJECT_DIR$/crud/crud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jjwt/jjwt.iml" filepath="$PROJECT_DIR$/jjwt/jjwt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springdatajpa/jpa.iml" filepath="$PROJECT_DIR$/springdatajpa/jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jwt/jwt.iml" filepath="$PROJECT_DIR$/jwt/jwt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pagehelper/pagehelper.iml" filepath="$PROJECT_DIR$/pagehelper/pagehelper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/redistemplate/redistemplate.iml" filepath="$PROJECT_DIR$/redistemplate/redistemplate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shirodemo/shiro.iml" filepath="$PROJECT_DIR$/shirodemo/shiro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pagehelpersimple/simple.iml" filepath="$PROJECT_DIR$/pagehelpersimple/simple.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tkdemo/tkdemo.iml" filepath="$PROJECT_DIR$/tkdemo/tkdemo.iml" />
+    </modules>
+  </component>
+</project>

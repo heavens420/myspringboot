@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zlx.shiro.dao.RoleDao">
+    <resultMap id="baseMap" type="com.zlx.shiro.bean.Role">
+        <id property="id" column="ID" jdbcType="INTEGER"></id>
+        <result property="name" column="NAME" jdbcType="VARCHAR"></result>
+    </resultMap>
+
+    <select id="queryRoleListById" resultMap="baseMap">
+        SELECT role.* FROM `USER` user
+        INNER JOIN `USER_ROLE` userrole ON user.id=userrole.USER_ID
+        INNER JOIN ROLE role ON userrole.ROLE_ID=role.ID
+        WHERE user.id=#{id}
+    </select>
+
+    <select id="queryRoleById" resultMap="baseMap">
+        SELECT role.* FROM `USER` user
+        INNER JOIN `USER_ROLE` userrole ON user.id=userrole.USER_ID
+        INNER JOIN ROLE role ON userrole.ROLE_ID=role.ID
+        WHERE user.id=#{id}
+    </select>
+</mapper>

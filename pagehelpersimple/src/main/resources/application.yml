@@ -1,0 +1,13 @@
+server:
+  port: 8092
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://47.115.3.199:3311/springboot?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&useSSL=false&allowMultiQueries=true
+    username: root
+    password: root
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+
+#pagehelper的配置可配可不配

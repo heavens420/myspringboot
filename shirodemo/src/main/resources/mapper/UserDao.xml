@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zlx.shiro.dao.UserDao">
+    <resultMap id="baseMap" type="com.zlx.shiro.bean.User">
+        <result property="id" column="id" jdbcType="INTEGER"/>
+        <result property="age" column="age" jdbcType="INTEGER"/>
+        <result property="name" column="name" jdbcType="VARCHAR"/>
+        <result property="phone" column="phone" jdbcType="VARCHAR"/>
+        <result property="addr" column="addr" jdbcType="VARCHAR"/>
+        <result property="password" column="password" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <select id="queryAll" resultMap="baseMap">
+        select * from USER
+    </select>
+    
+    <select id="queryUserByName" resultMap="baseMap">
+        select * from USER user where user.name = #{name}
+    </select>
+</mapper>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../../w3/my-springboot-demo/databse/pom.xml" />
+        <option value="$PROJECT_DIR$/../../w3/my-springboot-demo/pagehelperdemo/pom.xml" />
+        <option value="$PROJECT_DIR$/../../w3/my-springboot-demo/pagehelpersimple/pom.xml" />
+        <option value="$PROJECT_DIR$/../../w3/my-springboot-demo/redistemplate/pom.xml" />
+        <option value="$PROJECT_DIR$/../../w3/my-springboot-demo/shirodemo/pom.xml" />
+        <option value="$PROJECT_DIR$/../../w3/my-springboot-demo/springdatajpa/pom.xml" />
+        <option value="$PROJECT_DIR$/../../w3/my-springboot-demo/tkdemo/pom.xml" />
+        <option value="$PROJECT_DIR$/jjwt/pom.xml" />
+        <option value="$PROJECT_DIR$/pagehelpersimple/pom.xml" />
+        <option value="$PROJECT_DIR$/redistemplate/pom.xml" />
+        <option value="$PROJECT_DIR$/shirodemo/pom.xml" />
+        <option value="$PROJECT_DIR$/springdatajpa/pom.xml" />
+        <option value="$PROJECT_DIR$/tkdemo/pom.xml" />
+        <option value="$PROJECT_DIR$/jwt/pom.xml" />
+        <option value="$PROJECT_DIR$/crud/pom.xml" />
+        <option value="$PROJECT_DIR$/pagehelper/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zlx.shiro.dao.PermissionDao">
+    <resultMap id="baseMap" type="com.zlx.shiro.bean.Permission">
+        <id property="id" column="ID" jdbcType="INTEGER"></id>
+        <result property="permissionId" column="PER_CODE" jdbcType="VARCHAR"></result>
+        <result property="permissionName" column="PER_NAME" jdbcType="VARCHAR"></result>
+    </resultMap>
+
+    <select id="queryPermissionList" resultMap="baseMap">
+        SELECT permission.* FROM ROLE role
+        INNER JOIN ROLE_PERMISSION roleper ON role.ID=roleper.ROLE_ID
+        INNER JOIN PERMISSION permission ON roleper.PER_ID=permission.ID
+        WHERE role.ID=#{id};
+    </select>
+
+
+</mapper>

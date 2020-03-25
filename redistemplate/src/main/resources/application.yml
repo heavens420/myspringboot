@@ -1,0 +1,11 @@
+spring:
+  redis:
+    host: 47.115.3.199
+    port: 6400
+    jedis:
+      pool:
+        max-active: 8
+    #配置哪个数据库 总共16个 0 - 15
+    database: 1
+server:
+  port: 8096
