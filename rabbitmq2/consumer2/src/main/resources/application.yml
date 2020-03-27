@@ -1,0 +1,11 @@
+server:
+  port: 9502
+spring:
+  application:
+    name: consumer2
+  rabbitmq:
+    port: 5672
+    host: heavens.tk
+    username: heavens2
+    password: heavens420
+    virtual-host: /

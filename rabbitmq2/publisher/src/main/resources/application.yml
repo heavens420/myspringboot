@@ -1,0 +1,12 @@
+server:
+  port: 9500
+spring:
+  application:
+    name: publisher
+  rabbitmq:
+    port: 5672
+    host: 47.115.3.199
+    username: heavens2
+    password: heavens420
+    #virtual-host 默认为 /  若当前账户无根目录权限 需设置 virtual-host 否则报错
+    virtual-host: /

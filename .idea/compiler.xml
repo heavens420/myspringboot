@@ -8,19 +8,28 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="jwt" />
+        <module name="myrabbitmq" />
         <module name="pagehelper" />
-        <module name="redistemplate" />
-        <module name="elasticsearch" />
-        <module name="rabbitmq" />
-        <module name="jjwt" />
         <module name="crud" />
+        <module name="rabbitmq2" />
         <module name="shiro" />
-        <module name="tkdemo" />
         <module name="jpa" />
+        <module name="redistemplate" />
+        <module name="rabbitmq" />
+        <module name="consumer3" />
+        <module name="tkdemo" />
         <module name="simple" />
+        <module name="consumer" />
+        <module name="jjwt" />
+        <module name="consumer2" />
+        <module name="elasticsearch" />
+        <module name="publisher" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="consumer" target="1.8" />
+      <module name="consumer2" target="1.8" />
+      <module name="consumer3" target="1.8" />
       <module name="crud" target="1.8" />
       <module name="demo" target="1.8" />
       <module name="demo (1) (com.zlx.pagehelper)" target="1.8" />
@@ -28,8 +37,12 @@
       <module name="jjwt" target="1.8" />
       <module name="jpa" target="1.8" />
       <module name="jwt" target="1.8" />
+      <module name="myrabbitmq" target="1.8" />
       <module name="pagehelper" target="1.8" />
+      <module name="publisher" target="1.8" />
       <module name="rabbitmq" target="1.8" />
+      <module name="rabbitmq2" target="1.8" />
+      <module name="rabbitmq2 (1) (org.example)" target="1.8" />
       <module name="redistemplate" target="1.8" />
       <module name="shiro" target="1.8" />
       <module name="simple" target="1.8" />
@@ -38,6 +51,9 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="consumer" options="-parameters" />
+      <module name="consumer2" options="-parameters" />
+      <module name="consumer3" options="-parameters" />
       <module name="crud" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="demo (1) (com.zlx.pagehelper)" options="-parameters" />
@@ -46,7 +62,9 @@
       <module name="jpa" options="-parameters" />
       <module name="jwt" options="-parameters" />
       <module name="pagehelper" options="-parameters" />
+      <module name="publisher" options="-parameters" />
       <module name="rabbitmq" options="-parameters" />
+      <module name="rabbitmq2" options="-parameters" />
       <module name="redistemplate" options="-parameters" />
       <module name="shiro" options="-parameters" />
       <module name="simple" options="-parameters" />

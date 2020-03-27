@@ -21,6 +21,12 @@
         <option value="$PROJECT_DIR$/pagehelper/pom.xml" />
         <option value="$PROJECT_DIR$/elasticsearch/pom.xml" />
         <option value="$PROJECT_DIR$/rabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/myrabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq2/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq2/publisher/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq2/consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq2/consumer2/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq2/consumer3/pom.xml" />
       </list>
     </option>
   </component>
