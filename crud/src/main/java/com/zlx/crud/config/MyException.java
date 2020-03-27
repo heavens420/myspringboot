@@ -11,10 +11,19 @@ import java.util.Map;
 public class MyException {
     @ResponseBody  //返回json字符串
     @ExceptionHandler(value = NullPointerException.class) //捕捉异常类型
-    public Map<String,Object> exception(Exception e){
+    public Map<String,Object> NullException(Exception e){
         Map<String,Object> map = new HashMap<>();
         map.put("code",500);
         map.put("msg","空指针");
+        return map;
+    }
+
+    @ResponseBody
+    @ExceptionHandler(value = Exception.class)
+    public Map<String,Object> Exception(Exception e){
+        Map map = new HashMap();
+        map.put("code","999");
+        map.put("message","系统繁忙");
         return map;
     }
 }

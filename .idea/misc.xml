@@ -19,6 +19,8 @@
         <option value="$PROJECT_DIR$/jwt/pom.xml" />
         <option value="$PROJECT_DIR$/crud/pom.xml" />
         <option value="$PROJECT_DIR$/pagehelper/pom.xml" />
+        <option value="$PROJECT_DIR$/elasticsearch/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq/pom.xml" />
       </list>
     </option>
   </component>

@@ -3,10 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/crud/crud.iml" filepath="$PROJECT_DIR$/crud/crud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/elasticsearch/elasticsearch.iml" filepath="$PROJECT_DIR$/elasticsearch/elasticsearch.iml" />
       <module fileurl="file://$PROJECT_DIR$/jjwt/jjwt.iml" filepath="$PROJECT_DIR$/jjwt/jjwt.iml" />
       <module fileurl="file://$PROJECT_DIR$/springdatajpa/jpa.iml" filepath="$PROJECT_DIR$/springdatajpa/jpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/jwt/jwt.iml" filepath="$PROJECT_DIR$/jwt/jwt.iml" />
       <module fileurl="file://$PROJECT_DIR$/pagehelper/pagehelper.iml" filepath="$PROJECT_DIR$/pagehelper/pagehelper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbitmq/rabbitmq.iml" filepath="$PROJECT_DIR$/rabbitmq/rabbitmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/redistemplate/redistemplate.iml" filepath="$PROJECT_DIR$/redistemplate/redistemplate.iml" />
       <module fileurl="file://$PROJECT_DIR$/shirodemo/shiro.iml" filepath="$PROJECT_DIR$/shirodemo/shiro.iml" />
       <module fileurl="file://$PROJECT_DIR$/pagehelpersimple/simple.iml" filepath="$PROJECT_DIR$/pagehelpersimple/simple.iml" />
