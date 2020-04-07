@@ -74,7 +74,7 @@ public class MyRealm extends AuthorizingRealm {
             return null;//触发UnknownAccountExceeption
         }
 
-        //把phone当密码 验证密码
+        // 验证密码
         SimpleAuthenticationInfo simpleAuthenticationInfo = new SimpleAuthenticationInfo("",user.getPassword(),"");
 
         System.out.println("password:"+user.getPassword());
