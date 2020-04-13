@@ -16,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/rabbitmq/rabbitmq.iml" filepath="$PROJECT_DIR$/rabbitmq/rabbitmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/rabbitmq2/rabbitmq2.iml" filepath="$PROJECT_DIR$/rabbitmq2/rabbitmq2.iml" />
       <module fileurl="file://$PROJECT_DIR$/redistemplate/redistemplate.iml" filepath="$PROJECT_DIR$/redistemplate/redistemplate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/selenium/selenium.iml" filepath="$PROJECT_DIR$/selenium/selenium.iml" />
       <module fileurl="file://$PROJECT_DIR$/shirodemo/shiro.iml" filepath="$PROJECT_DIR$/shirodemo/shiro.iml" />
       <module fileurl="file://$PROJECT_DIR$/pagehelpersimple/simple.iml" filepath="$PROJECT_DIR$/pagehelpersimple/simple.iml" />
       <module fileurl="file://$PROJECT_DIR$/tkdemo/tkdemo.iml" filepath="$PROJECT_DIR$/tkdemo/tkdemo.iml" />

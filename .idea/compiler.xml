@@ -8,22 +8,23 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="jwt" />
-        <module name="myrabbitmq" />
+        <module name="jjwt" />
         <module name="pagehelper" />
+        <module name="myrabbitmq" />
         <module name="crud" />
         <module name="rabbitmq2" />
         <module name="shiro" />
         <module name="jpa" />
+        <module name="selenium" />
         <module name="redistemplate" />
         <module name="rabbitmq" />
         <module name="consumer3" />
         <module name="tkdemo" />
         <module name="simple" />
-        <module name="consumer" />
-        <module name="jjwt" />
-        <module name="consumer2" />
-        <module name="elasticsearch" />
         <module name="publisher" />
+        <module name="consumer" />
+        <module name="elasticsearch" />
+        <module name="consumer2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -44,6 +45,7 @@
       <module name="rabbitmq2" target="1.8" />
       <module name="rabbitmq2 (1) (org.example)" target="1.8" />
       <module name="redistemplate" target="1.8" />
+      <module name="selenium" target="1.8" />
       <module name="shiro" target="1.8" />
       <module name="simple" target="1.8" />
       <module name="tkdemo" target="1.8" />
@@ -66,6 +68,7 @@
       <module name="rabbitmq" options="-parameters" />
       <module name="rabbitmq2" options="-parameters" />
       <module name="redistemplate" options="-parameters" />
+      <module name="selenium" options="-parameters" />
       <module name="shiro" options="-parameters" />
       <module name="simple" options="-parameters" />
       <module name="tkdemo" options="-parameters" />

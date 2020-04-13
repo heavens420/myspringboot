@@ -27,6 +27,7 @@
         <option value="$PROJECT_DIR$/rabbitmq2/consumer/pom.xml" />
         <option value="$PROJECT_DIR$/rabbitmq2/consumer2/pom.xml" />
         <option value="$PROJECT_DIR$/rabbitmq2/consumer3/pom.xml" />
+        <option value="$PROJECT_DIR$/selenium/pom.xml" />
       </list>
     </option>
   </component>

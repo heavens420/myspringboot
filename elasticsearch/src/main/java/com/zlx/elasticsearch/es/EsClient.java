@@ -23,9 +23,8 @@ public class EsClient {
          * 2 创建一个client客户端对象
          */
         TransportClient client = new PreBuiltTransportClient(settings);
-        client.addTransportAddress(new TransportAddress( InetAddress.getByName("heavens.tk"),9031));
-        client.addTransportAddress(new TransportAddress( InetAddress.getByName("heavens.tk"),9032));
-        client.addTransportAddress(new TransportAddress( InetAddress.getByName("heavens.tk"),9033));
+        client.addTransportAddress(new TransportAddress( InetAddress.getByName("heavens.tk"),9300));
+
 
         /**
          * 3 用管理员创建一个索引库
@@ -43,6 +42,7 @@ public class EsClient {
          */
         client.close();
     }
+
 
 
 
