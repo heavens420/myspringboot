@@ -45,6 +45,12 @@ public class User implements Serializable {
         this.addr = addr;
     }
 
+    public User(Integer id, Integer age, String name) {
+        this.id = id;
+        this.age = age;
+        this.name = name;
+    }
+
     public Integer getId() {
         return id;
     }

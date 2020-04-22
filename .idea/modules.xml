@@ -7,11 +7,13 @@
       <module fileurl="file://$PROJECT_DIR$/rabbitmq2/consumer3/consumer3.iml" filepath="$PROJECT_DIR$/rabbitmq2/consumer3/consumer3.iml" />
       <module fileurl="file://$PROJECT_DIR$/crud/crud.iml" filepath="$PROJECT_DIR$/crud/crud.iml" />
       <module fileurl="file://$PROJECT_DIR$/elasticsearch/elasticsearch.iml" filepath="$PROJECT_DIR$/elasticsearch/elasticsearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fastdfs/fastdfs.iml" filepath="$PROJECT_DIR$/fastdfs/fastdfs.iml" />
       <module fileurl="file://$PROJECT_DIR$/jjwt/jjwt.iml" filepath="$PROJECT_DIR$/jjwt/jjwt.iml" />
       <module fileurl="file://$PROJECT_DIR$/springdatajpa/jpa.iml" filepath="$PROJECT_DIR$/springdatajpa/jpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/jwt/jwt.iml" filepath="$PROJECT_DIR$/jwt/jwt.iml" />
       <module fileurl="file://$PROJECT_DIR$/myrabbitmq/myrabbitmq.iml" filepath="$PROJECT_DIR$/myrabbitmq/myrabbitmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/pagehelper/pagehelper.iml" filepath="$PROJECT_DIR$/pagehelper/pagehelper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/poi/poi.iml" filepath="$PROJECT_DIR$/poi/poi.iml" />
       <module fileurl="file://$PROJECT_DIR$/rabbitmq2/publisher/publisher.iml" filepath="$PROJECT_DIR$/rabbitmq2/publisher/publisher.iml" />
       <module fileurl="file://$PROJECT_DIR$/rabbitmq/rabbitmq.iml" filepath="$PROJECT_DIR$/rabbitmq/rabbitmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/rabbitmq2/rabbitmq2.iml" filepath="$PROJECT_DIR$/rabbitmq2/rabbitmq2.iml" />

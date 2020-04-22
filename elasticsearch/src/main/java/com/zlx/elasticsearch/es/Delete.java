@@ -22,12 +22,12 @@ public class Delete {
         TransportClient client = new PreBuiltTransportClient(settings)
                 .addTransportAddress(new TransportAddress(InetAddress.getByName("jing.tk"), 9300));
 
-        //删除索引下含 name含有  哈利波特的
+        //删除索引下含 name含有  哈利  的文档
         BulkByScrollResponse bulkByScrollResponse = DeleteByQueryAction.INSTANCE
                 .newRequestBuilder(client)
                 .source("index2")
                 .filter(QueryBuilders.matchQuery(
-                        "name","哈利波"
+                        "name","哈利"
                 )).get();
 
         long count = bulkByScrollResponse.getDeleted();

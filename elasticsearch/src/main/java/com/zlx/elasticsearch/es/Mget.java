@@ -27,12 +27,13 @@ public class Mget {
                 .add("index","blog","8","7")
                 .get();
 
-        for (MultiGetItemResponse re:responses
-             ) {
-            GetResponse getResponse = re.getResponse();
-            if (getResponse.isExists() && getResponse != null) {
-                System.out.println(getResponse.getSourceAsString());
-            }
-        }
+//        for (MultiGetItemResponse re:responses
+//             ) {
+//            GetResponse getResponse = re.getResponse();
+//            if (getResponse.isExists() && getResponse != null) {
+//                System.out.println(getResponse.getSourceAsString());
+//            }
+//        }
+        responses.forEach((re)-> System.out.println(re.getResponse().getSourceAsString()));
     }
 }

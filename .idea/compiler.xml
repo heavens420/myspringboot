@@ -8,21 +8,23 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="jwt" />
-        <module name="jjwt" />
-        <module name="pagehelper" />
         <module name="myrabbitmq" />
+        <module name="pagehelper" />
+        <module name="fastdfs" />
         <module name="crud" />
         <module name="rabbitmq2" />
         <module name="shiro" />
-        <module name="jpa" />
         <module name="selenium" />
         <module name="redistemplate" />
+        <module name="publisher" />
         <module name="rabbitmq" />
         <module name="consumer3" />
         <module name="tkdemo" />
+        <module name="poi" />
         <module name="simple" />
-        <module name="publisher" />
         <module name="consumer" />
+        <module name="jpa" />
+        <module name="jjwt" />
         <module name="elasticsearch" />
         <module name="consumer2" />
       </profile>
@@ -35,11 +37,13 @@
       <module name="demo" target="1.8" />
       <module name="demo (1) (com.zlx.pagehelper)" target="1.8" />
       <module name="elasticsearch" target="1.8" />
+      <module name="fastdfs" target="1.8" />
       <module name="jjwt" target="1.8" />
       <module name="jpa" target="1.8" />
       <module name="jwt" target="1.8" />
       <module name="myrabbitmq" target="1.8" />
       <module name="pagehelper" target="1.8" />
+      <module name="poi" target="1.8" />
       <module name="publisher" target="1.8" />
       <module name="rabbitmq" target="1.8" />
       <module name="rabbitmq2" target="1.8" />
@@ -60,10 +64,12 @@
       <module name="demo" options="-parameters" />
       <module name="demo (1) (com.zlx.pagehelper)" options="-parameters" />
       <module name="elasticsearch" options="-parameters" />
+      <module name="fastdfs" options="-parameters" />
       <module name="jjwt" options="-parameters" />
       <module name="jpa" options="-parameters" />
       <module name="jwt" options="-parameters" />
       <module name="pagehelper" options="-parameters" />
+      <module name="poi" options="-parameters" />
       <module name="publisher" options="-parameters" />
       <module name="rabbitmq" options="-parameters" />
       <module name="rabbitmq2" options="-parameters" />
